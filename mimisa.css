@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 44px;
+    background: #333;
+    position: sticky;
+    top: 0px;
+}
+.collection{
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ddd;
+}
+.item{
+    list-style: none;
+    font-size: 12px;
+}
+.item:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.item i{
+    font-size: 18px;
+
+}
+.banner{
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    padding-top: 50px;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner h3{
+    font-size: 26px;
+    font-weight: 100;
+    padding: 10px 0px;
+}
+.iphone13{
+    background: url("./hero_iphone13_avail__gnqqkzuai6um_large.jpg") no-repeat center/cover;
+}
+.iphone13pro{
+    background: url("./hero_iphone13pro_avail__iy77cld0zwii_large.jpg") no-repeat center/cover;
+}
+.link{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.link span{
+    font-size: 18px;
+}
+.link:hover span{
+    text-decoration: underline;
+}
+.bannerg{
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    padding-top: 50px;
+}
+.bannerg h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.bannerg h3{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 0px;
+}
+.bannerg h1 span{
+    color: red;
+}
+.supercharged{
+    background: url("./hero_bts__bcuslanw39xe_large.jpg") no-repeat center/cover;
+}
+.supercharged h1 span{
+    color: rgb(117, 34, 34);
+}
+.linkd{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.linkd span{
+    font-size: 18px;
+}
+.linkd:hover span{
+    text-decoration: underline;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 50%;
+    height: 550px;
+    border: 3px solid #fff;
+    background-color: dodgerblue;
+}
+.event{
+    background: url("./tile__cauwwcyyn9hy_large.jpg") no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 380px;
+}
+.event h3{
+    padding: 8px 0px;
+    font-size: 20px;
+}
+.linkf{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.linkf span{
+    font-size: 18px;
+}
+.linkf:hover span{
+    text-decoration: underline;
+}
+.watch{
+    background: url("./promo_watch_lte__djeaso7ukrsm_large.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 20px ;
+}
+.watch h2{
+    padding-left: 150px;
+    font-size: 23px;
+}
+.watch h1 i{
+    padding-right: 17px;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.watch h3{
+    color: rgb(102, 22, 22);
+    padding-top: 10px;
+}
+.watch h4{
+    font-size: 18px;
+    padding-top: 4px;
+}
+.binked{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+    padding-top: 4px;
+}
+.binked span{
+    font-size: 18px;
+}
+.binked:hover span{
+    text-decoration: underline;
+}
+.ipadair{
+    background: url("./promo_ipadair_avail__ferd4bfpcdm6_large.jpg") no-repeat center/cover;
+}
+.ipadair h1{
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+.ipadair i{
+    color: dodgerblue;
+}
+.ipadair h3{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.zinked{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.zinked span{
+    font-size: 18px;
+    padding-left: 200px;
+    padding-top: 22px;
+}
+.zinked:hover span{
+    text-decoration: underline;
+}
+.zinkel{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.zinkel span{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 22px;
+}
+.zinkel:hover span{
+    text-decoration: underline;
+}
+.macbookair{
+    background: url("./promo_macbookair__fywl7i82fueu_large.png") no-repeat center/cover;
+}
+.macbookair h1{
+    text-align: center;
+    font-size: 40px;
+}
+.macbookair h3{
+    text-align: center;
+    font-weight: 400;
+}
+.macbookair h3 i{
+    font-size: 33px;
+}
+.hinked{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.hinked span{
+    font-size: 18px;
+    padding-left: 200px;
+}
+.hinked:hover span{
+    text-decoration: underline;
+}
+.yinked{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.yinked span{
+    font-size: 18px;
+    padding-left: 23px;
+}
+.yinked:hover span{
+    text-decoration: underline;
+}
+.macbookpro13{
+    background: url("./promo_mbp13__buwssod6c8vm_large.jpg") no-repeat center/cover;
+}
+.macbookpro13{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+    color: white;
+}
+.macbookpro13 h3{
+    font-size: 23px;
+    color: white;
+}
+.macbookpro13 h3 i{
+    background-color: black;
+}
+.pinked{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.pinked span{
+    font-size: 18px;
+}
+.pinked:hover span{
+    text-decoration: underline;
+}
+.shop{
+    background: url("./tile__cauwwcyyn9hy_large\ \(1\).jpg") no-repeat center/cover;
+}
+.shop h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 9px;
+}
+.shop h3{
+    text-align: center;
+    padding-top: 9px;
+}
+.winked{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.winked span{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 220px;
+}
+.winked:hover span{
+    text-decoration: underline;
+}
+.qinked{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #06C;
+}
+.qinked span{
+    font-size: 18px;
+}
+.qinked:hover span{
+    text-decoration: underline;
+}
+.footer{
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    height: 450px;
+    padding: 10px 250px 10px 250px;
+}
+.footer a{
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer p{
+    margin: 5px 0 20px 5px;
+    font-size: 12px;
+    color: gray;
+}
+.footermenu{
+    width: 100%;
+    height: 580px;
+    background-color:rgb(246, 246, 246);
+    
+}
+.foot{
+    padding: 10px 250px;
+    display: flex;
+    border-top: 1px solid rgb(199, 196, 196);
+}
+.and{
+    width: 20%;
+}
+.services{
+    width: 20%;
+}
+.apple{
+    width: 20%;
+}
+.business{
+    width: 20%;
+}
+.values{
+    width: 20%
+}
+.footerm{
+    margin-left: 0px;
+    list-style: none;
+    font-size: 12px;
+    
+}
+.item1{
+    color: rgb(40, 39, 39);
+    font-weight: 550;
+    margin: 20px 0 10px 0;
+}
+.item2{
+    color: rgba(67, 67, 67, 0.827);
+    margin-bottom: 10px;
+}
+.item2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
